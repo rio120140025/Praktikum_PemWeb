@@ -1,0 +1,184 @@
+$background-color: #DD180A;
+$background-color-2: #d29a79;
+$text-color : white;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+h1 {
+    font: {
+        weight: bold;
+        size: xx-large;
+    }
+    position: static;
+    margin-left: 220px;
+    top: 25px;
+}
+
+h2 {
+    color: $text-color;
+    font: {    
+        weight: lighter;
+        size: larger;
+    }
+    position: static;
+    margin-left: 220px;
+    top: 25px;
+
+}
+
+.head {
+    background-color: $background-color;
+    padding: 50px;
+    .awal {
+        color: $text-color;
+    }
+    .akhir {
+        color: $background-color-2;   
+    }
+}
+
+.bar {
+    background-color: $background-color-2;
+    text-align: right;
+    padding: 10px;
+    .button {
+        color: $text-color;
+        font-weight: 600;
+        padding: 10px 10px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+}
+
+.h3 {
+    background-color: #d27f79;
+    color: white;
+    font-weight: 900;
+    padding: 5px;
+}
+
+video {
+    position: relative;
+    left: 850px;
+}
+
+.box {
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 75px;
+    top: 350px;
+    text-align: justify;
+    width: 600px;
+}
+
+table, th, td {
+    border: 1px solid #d29a79;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 80%;
+}
+
+.middle {
+    text-align: center;
+}
+
+th {
+    background-color: #d29a79;
+    color: white;
+}
+
+.formbox {
+    background-color: #d29a79;
+    border-radius: 20px;
+    padding: 25px;
+    margin-left: 150px;
+    width: 225px;
+}
+
+button {
+    background-color: #d27f79;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    padding: 5px 85px;
+    text-align: center;
+    border: none;
+}
+
+footer {
+    background-color: rgb(227, 227, 227);
+    color: #d27f79;
+    text-align: center;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+@media (max-width: 535px ) {
+    h1, h2 {
+        margin: auto;
+    }
+    img {
+        position: static;
+        margin: auto;
+    }
+    .box {
+        position: static;
+        margin: auto;
+        text-align: justify;
+        width: auto;
+    }
+    video {
+        position: static;
+        margin-top: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .formbox {
+        margin: auto;
+    }
+}
+@media (max-width: 960px ) {
+    h1, h2 {
+        margin: auto;
+    }
+    img {
+        position: static;
+        margin: auto;
+    }
+    .box {
+        position: static;
+        margin: auto;
+        text-align: justify;
+        width: auto;
+    }
+    video {
+        position: static;
+        margin-top: 1em;
+        width: 100%;
+        height: auto;
+    }
+    .formbox {
+        margin: auto;
+    }
+}
+
+@media (max-width: 465px) {
+    .bar .button {
+        margin-left: 6em;
+    }
+}
